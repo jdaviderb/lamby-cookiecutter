@@ -11,7 +11,7 @@ rm -rf "$PROJECT_FOLDER"
 gem install rails --no-document
 
 rails new rename_me \
-  --database=mysql \
+  --skip-active-record \
   --skip-bootsnap \
   --skip-bundle
 
